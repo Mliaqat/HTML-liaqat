@@ -33,5 +33,5 @@ jobs:
       - name: install surge
         run: npm install -g surge
       - name : deploying Using Surge
-        run: surge  ./ liaqat.surge.sh --token '0fdef5589ed1f1a58c37d636fa8993b3'
+        run: surge  ./ liaqat.surge.sh --token $ {{ secrets.AB}}
          
